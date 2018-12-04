@@ -11,9 +11,4 @@ contract certificateStore {
         hashStore[hash] = now;
         return true;
     }
-
-    // Problem: this is read-only, i.e. does not mutate any state. how can we fix this?
-    function verifyHash(bytes32 hash) public returns (uint) {
-        return hashStore[hash];
-    }
 }
