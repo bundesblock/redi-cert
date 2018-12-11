@@ -1,0 +1,121 @@
+html {
+  background: #000126;
+  color: #E5C644;
+  margin: 100px 50px 5px 50px;
+}
+
+h1, h2 {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+}
+
+table {
+  margin: 120px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 80%;
+
+}
+
+td {
+  width: 50%;
+  text-align: center;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.form-inline {
+  margin: 200px 400px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.inputfile {
+  padding: 10px;
+  width: 0.1px;
+  height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+  font-size: 1vw;
+  font-weight: bold;
+  background-color: #000126;
+  display: inline-block;
+  cursor: pointer;
+  width: 60%;
+  float: left;
+  padding: 10px;
+  border: 2px solid #E5C644;
+  color: #E5C644;
+}
+
+.inputfile:focus + label {
+	outline: 1px dotted #E5C644;
+	outline: -webkit-focus-ring-color auto 10px;
+}
+
+.hash {
+  padding: 10px;
+	width: 60%;
+  float: left;
+  font-size: 1vw;
+  font-weight: bold;
+  color: #E5C644;
+  background-color: #000126;
+  display: inline-block;
+  border: 2px solid #E5C644;
+  margin: auto;
+}
+
+.inputtext {
+  padding: 10px;
+	width: 60%;
+  float: left;
+  font-size: 1vw;
+  font-weight: bold;
+  color: #E5C644;
+  background-color: #000126;
+  display: inline-block;
+  border: 2px solid #E5C644;
+}
+
+.form-inline button {
+  padding: 10px;
+  font-size: 1vw;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E5C644;
+  border: 2px solid #E5C644;
+  float: left;
+  width: 40%;
+  color: #000126;
+  cursor: pointer;
+}
+
+.form-inline button:hover {
+  background-color: #424599;
+  border: 2px solid #424599;
+}
+
+.footer {
+  color: #424599;
+  margin-bottom: 0;
+}
+
+.footer a {
+  color: #424599;
+  margin-bottom: 0;
+  text-align: bottom;
+}
